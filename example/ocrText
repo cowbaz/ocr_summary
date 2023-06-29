@@ -1,0 +1,61 @@
+Representational state transfer Sp 29 languages
+
+Article Talk Read Edit Viewhistory Tools v
+
+From Wikipedia, the free encyclopedia
+
+(Redirected from RESTful API)
+"REST" redirects here. For other uses, see Rest.
+
+This article may be too technical for most readers to understand. Please help improve it to make it
+¢ understandable to non-experts, without removing the technical details. (October 2020) (Learn how and when to
+
+remove this template message)
+
+Representational state transfer (REST) is a software architectural style that was created to guide the design and development of the architecture for the
+World Wide Web. REST defines a set of constraints for how the architecture of an Internet-scale distributed hypermedia system, such as the Web, should
+behave. The REST architectural style emphasises the scalability of interactions between components, uniform interfaces, independent deployment of
+components, and the creation of a layered architecture to facilitate caching of components to reduce user-perceived latency, enforce security, and
+encapsulate legacy systems.!"]
+
+REST has been employed throughout the software industry and is a widely accepted set of guidelines for creating stateless, reliable web APIs. A web API
+that obeys the REST constraints is informally described as RESTful. RESTful web APIs are typically loosely based on HTTP methods to access resources
+via URL-encoded parameters and the use of JSON or XML to transmit data.
+
+Principle [edit]
+
+The term representational state transfer was introduced and defined in 2000 by computer scientist Roy Fielding in his doctoral dissertation. It means that a
+server will respond with the representation of a resource (today, it will most often be an HTML, XML or JSON document) and that resource will contain
+hypermedia links that can be followed to make the state of the system change. Any such request will in turn receive the representation of a resource, and
+so on.
+
+An important consequence is that the only identifier that needs to be known is the identifier of the first resource requested, and all other identifiers will be
+discovered. This means that those identifiers can change without the need to inform the client beforehand and that there can be only loose coupling
+between client and server.
+
+History [edit]
+
+The Web began to enter everyday use in 1993-1994, when websites for general use started to become available.
+[2] At the time, there was only a fragmented description of the Web’s architecture, and there was pressure in the
+industry to agree on some standard for the Web interface protocols. For instance, several experimental extensions
+had been added to the communication protocol (HTTP) to support proxies, and more extensions were being
+
+proposed, but there was a need for a formal Web architecture with which to evaluate the impact of these changes.
+[3]
+
+The W3C and IETF working groups together started work on creating formal descriptions of the Web’s three
+primary standards: URI, HTTP, and HTML. Roy Fielding was involved in the creation of these standards
+(specifically HTTP 1.0 and 1.1, and URI), and during the next six years he created the REST architectural style,
+testing its constraints on the Web’s protocol standards and using it as a means to define architectural
+improvements — and to identify architectural mismatches. Fielding defined REST in his 2000 PhD dissertation
+"Architectural Styles and the Design of Network-based Software Architectures" I4] at UC Irvine.
+
+To create the REST architectural style, Fielding identified the requirements that apply when creating a world-wide
+network-based application, such as the need for a low entry barrier to enable global adoption. He also surveyed Roy Fielding speaking atOSCON =
+many existing architectural styles for network-based applications, identifying which features are shared with other 2008
+
+styles, such as caching and client-server features, and those which are unique to REST, such as the concept of
+
+resources. Fielding was trying to both categorise the existing architecture of the current implementation and identify which aspects should be considered
+central to the behavioural and performance requirements of the Web.
+

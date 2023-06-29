@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+aiofiles
+pytesseract
+opencv-python
+numpy
+transformers
